@@ -1,0 +1,50 @@
+body {
+	background-color: #AAAAAA;
+	font-family: "Ubuntu", "Arial", sans-serif;
+	margin: 0px;
+}
+
+code {
+	font-family: "Ubuntu Mono", "Courier", monospace;
+}
+
+.highlight {
+	background-color: #CCCCCC;
+}
+
+nav {
+	padding: 12px;
+	background-color: #999999;
+	height: 50px;
+	vertical-align: middle;
+	display: flex;
+	align-items: center;
+}
+
+.navlink {
+	text-decoration: none;
+}
+
+main {
+	padding: 12px;
+}
+
+.left {
+	margin-right: auto;
+	padding-right: 12px;
+}
+
+.right {
+	margin-left: auto;
+}
+
+footer {
+	padding: 12px;
+}
+
+@media(max-width: 850px) {
+	nav {
+		height: auto;
+		display: block;
+	}
+}
